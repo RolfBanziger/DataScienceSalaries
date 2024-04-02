@@ -49,6 +49,6 @@ elif analysis_option == 'Experience Level Analysis':
     
     # Plot salary distribution by experience level
     plt.figure(figsize=(10, 6))
-    sns.boxplot(x='experience_level', y='salary', data=df)
+    sns.boxplot(x='job_title', y='salary', data=df)
     plt.xticks(rotation=45)
     st.pyplot()
